@@ -10,14 +10,14 @@ permalink: /posts/
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <p class="description">{{ post.description }}</p>
-      <p class="categories">
+      <ul class="categories">
         {% for category in post.categories %}
-          <div class="category">
+          <li class="category">
             {{ category }}
-          </div>
+          </li>
         {% endfor %}
-      </p>
-      <p>{{ post.date }}</p>
+        </ul>
+      <div class="date">{{ post.date }}</p>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
