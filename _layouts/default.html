@@ -24,10 +24,12 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
-    <ul class="nav-links">
-      <li class="nav-link"><a href="/">Home</a></li>  
-      <li class="nav-link"><a href="/posts">Posts</a></li>
-    </ul>
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="/">Home</a></li>  
+        <li class="nav-link"><a href="/posts">Posts</a></li>
+      </ul>
+    </nav>
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
