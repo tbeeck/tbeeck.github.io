@@ -3,6 +3,7 @@
   font-size: large;
   list-style-type: none;
   .nav-link {
-    display: inline;
+    display: table-cell;
+    padding-right: 1em;
   }
 }
