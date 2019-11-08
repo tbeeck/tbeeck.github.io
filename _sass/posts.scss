@@ -3,20 +3,24 @@
 .posts {
   
   .post {
-    
-
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-radius: 1em;
+    padding: 1em;
+    .description {
+      font-style: italic;
+    }
   }
-}
-
-.description {
-
 }
 
 .categories {
   list-style-type: none;
+  padding: 0em;
   .category {
+    margin-left: 1em;
     text-decoration: underline;
     display: inline;
+    margin-left: 1em;
   }
 }
 
