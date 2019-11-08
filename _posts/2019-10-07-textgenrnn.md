@@ -1,5 +1,5 @@
 ---
-layout: defualt
+layout: default
 title: "textgenrnn"
 date: 2019-10-07
 categories: [python, neural-networks, ml]
