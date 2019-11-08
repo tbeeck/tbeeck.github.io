@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Posts
+description: "My latest posts."
 permalink: /posts/
 ---
 <h1>Latest Posts</h1>
@@ -11,9 +12,7 @@ permalink: /posts/
       <p class="description">{{ post.description }}</p>
       <ul class="categories">
         {% for category in post.categories %}
-          <li class="category">
-            {{ category }}
-          </li>
+          <li class="category">{{ category }}</li>
         {% endfor %}
         </ul>
       <div class="date">{{ post.date }}</p>
