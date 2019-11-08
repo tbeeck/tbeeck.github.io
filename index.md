@@ -1,27 +1,5 @@
-## Welcome to GitHub Pages
+# Welcome!
 
-You can use the [editor on GitHub](https://github.com/door-bell/door-bell.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a software and security fanatic. On this blog you can read about my many quests in building and breaking software.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+I hope you enjoy your stay, and if you like what you see, feel free to contact me with questions or comments!
