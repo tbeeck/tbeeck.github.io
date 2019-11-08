@@ -13,10 +13,10 @@
 }
 
 .categories {
-  display: inline;
   list-style-type: none;
   .category {
     text-decoration: underline;
+    display: inline;
   }
 }
 
