@@ -4,11 +4,12 @@ title: Posts
 permalink: /posts/
 ---
 <h1>Latest Posts</h1>
-
+<p><a href="/">Go home</a></p>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="description">{{ post.description }}</p>
       <p class="categories">
         {% for category in post.categories %}
           <div class="category">
