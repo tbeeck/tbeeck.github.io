@@ -1,0 +1,136 @@
+/* Imports/Fonts */
+@import url("https://fonts.googleapis.com/css?family=Bellefair|Poppins");
+/* About */
+p {
+  font-size: medium;
+}
+.display-2 {
+  font-size: 2.5em;
+}
+/* Top Label needs to avoid navbar */
+.top-label {
+  margin-top: 3em;
+  color: black;
+  z-index: 9999;
+}
+.top-label a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Logo animation classes */
+.logos {
+  opacity: 0;
+}
+.animate-logos {
+  animation: LogoAnimation 1s forwards;
+}
+@keyframes LogoAnimation {
+  0% {opacity: 0; transform: translateY(10em)}
+  100% {opacity: 1; transform: translateY(0em)}
+}
+
+.gradient-body {
+  font: 20px 'Poppins', sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  background: linear-gradient(270deg, #23a500, #0854d8);
+  background-size: 400% 400%;
+  -webkit-animation: GradientBoy 8s ease infinite;
+  -moz-animation: GradientBoy 8s ease infinite;
+  -o-animation: GradientBoy 8s ease infinite;
+  animation: GradientBoy 8s ease infinite;
+}
+
+.header-about {
+  font-family: 'Bellefair', palatino;
+  letter-spacing: 5px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.body-text p {
+  font-size: 18px;
+}
+
+.spaced {
+  letter-spacing: 5px;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.contact-container {
+  background-color: rgba(250, 250, 250, .2);
+  border-radius: 1em;
+}
+.contact-container a {
+  color: rgba(250, 250, 250, 1);
+  text-decoration: underline;
+  padding: 0em 2em;
+}
+
+.navbar {
+  padding: .2rem 1rem !important;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: .8em;
+}
+
+.navbar-nav li a {
+  font-family: 'Bellefair', palatino;
+}
+
+.navbar-nav li a:hover {
+  color: #ff405f !important;
+}
+
+.link-white {
+  color: #ffffff;
+}
+
+.btn-clear {
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Bellefair', palatino;
+}
+
+#githubLink {
+  max-width: 40%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+@-webkit-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; }
+  }
+@-moz-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-o-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; }
+}
+@keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; }
+  }
